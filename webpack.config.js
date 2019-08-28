@@ -30,7 +30,8 @@ module.exports = (env) => {
                     test: /\.js$/,
                     loader: "babel-loader",
                     options: {
-                        presets: ['env', 'react']
+                        presets: ['env', 'react'],
+                        plugins: env !== 'production' ? ["react-hot-loader/babel"] : []
                     }
                 },
                 {
