@@ -1,0 +1,39 @@
+{
+  "name": "20-6-webpack-plugins",
+  "version": "1.0.0",
+  "description": "webpack plugins",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode development",
+    "build": "webpack --env production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwabe/20-6-webpack-plugins.git"
+  },
+  "author": "bebe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dwabe/20-6-webpack-plugins/issues"
+  },
+  "homepage": "https://github.com/dwabe/20-6-webpack-plugins#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "optimize-js-plugin": "0.0.4",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "style-loader": "^0.22.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "uuid": "^3.3.2",
+    "uuid-v4": "^0.1.0",
+    "mem": ">=4.0.0"
+  }
+}
