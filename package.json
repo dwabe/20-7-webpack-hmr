@@ -31,7 +31,7 @@
     "style-loader": "^0.22.1",
     "webpack": "^4.16.5",
     "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.8.0"
+    "webpack-dev-server": "^3.11.3"
   },
   "dependencies": {
     "uuid": "^3.3.2",
